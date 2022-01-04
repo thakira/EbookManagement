@@ -1,0 +1,37 @@
+root {
+    display: block;
+}
+
+.exitButton {
+    -fx-background-image: url("../../resources/images/exit_white.png");
+    -fx-background-size: 25.0 25.0;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-color: rgba(0, 0, 0, 0.2);
+}
+
+
+.startButton {
+    -fx-background-color: transparent;
+    -fx-border-width: 1px;
+    -fx-border-color: lightgrey;
+    -fx-minWidth: 80px;
+    -fx-maxWidth: 80px;
+    -fx-minHeight: 40px;
+    -fx-maxHeight: 40px;
+    -fx-border-radius: 5;
+}
+
+.titleText {
+    -fx-font-size: 20px;
+    -fx-fill: #000000;
+    -fx-text-alignment: center;
+}
+
+
+.tableView {
+    -fx-border-color: black;
+    -fx-border-width: 1px;
+    
+}
+
